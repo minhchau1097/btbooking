@@ -21,21 +21,21 @@ class SeatInfor extends Component {
     render() {
         return (
             <div className="mt-5" >
-                <button className='gheDuocChon'></button><span className='text-light' style={{ fontSize: '30px' }}>Ghế đã đặt
+                <button className='gheDuocChon'></button><span className='text-light' style={{ fontSize: '30px' }}>Reserved Seat
                 </span>
                 <br />
-                <button className='gheDangChon'></button><span className='text-light' style={{ fontSize: '30px' }}>Ghế đang chọn
+                <button className='gheDangChon'></button><span className='text-light' style={{ fontSize: '30px' }}>Selecting Seat
                 </span>
                 <br />
-                <button className='ghe' style={{ marginLeft: '0' }}></button><span className='text-light' style={{ fontSize: '30px' }}>Ghế chưa đặt
+                <button className='ghe' style={{ marginLeft: '0' }}></button><span className='text-light' style={{ fontSize: '30px' }}>Empty Seat
                 </span>
                 <div className="mt-5 ">
                     <table className="table" border='2'>
                         <thead>
                             <tr className='text-light' >
-                                <th>Số Ghế</th>
-                                <th>Giá</th>
-                                <th>Huỷ</th>
+                                <th>Number Seat</th>
+                                <th>Price</th>
+                                <th>Delete</th>
                             </tr>
                         </thead>
                         <tbody>
